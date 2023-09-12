@@ -12,7 +12,7 @@ public class exercise {
    Scanner i = new Scanner(System.in);
 			
    int money  = i.nextInt();
-  // int playagain= 0;		
+  	
 
 		do {
 			int ra1 =random.nextInt(10)+1;
@@ -21,6 +21,7 @@ public class exercise {
 				System.out.println(ra1);
 				System.out.println(ra2);
 				System.out.println(ra3);
+				//this code should be in the "do while"loop,as it needs changed in every loop.
 				
 					if((ra1 == 7&&ra2 == 7 &&ra3 !=7)||(ra1 != 7&& ra2 == 7&& ra3 ==7)||(ra1 == 7&& ra2 != 7&& ra3 ==7)) {
 			        money += 5;
@@ -48,7 +49,6 @@ public class exercise {
 			    		}
 			    	else if (answer.equals("yes")){
 			    		System.out.println();
-	//		    		playagain++;
 			    	 }
 				
 				}while(money>0)	;
