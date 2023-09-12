@@ -12,7 +12,7 @@ public class exercise {
    Scanner i = new Scanner(System.in);
 			
    int money  = i.nextInt();
-   int playagain= 0;		
+  // int playagain= 0;		
 
 		do {
 			int ra1 =random.nextInt(10)+1;
@@ -47,7 +47,8 @@ public class exercise {
 			    		break;
 			    		}
 			    	else if (answer.equals("yes")){
-			    		playagain++;
+			    		System.out.println();
+	//		    		playagain++;
 			    	 }
 				
 				}while(money>0)	;
