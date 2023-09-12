@@ -1,5 +1,6 @@
 	
 import java.util.Scanner;
+//this code is call "Scanner".
 import java.util.Random;
 public class exercise {
 
@@ -8,6 +9,8 @@ public class exercise {
 		
 			
    Random random = new  Random();
+   
+   //this code is for ask the user to input their informations.
    System.out.println("How much do you want to spend money?");
    Scanner i = new Scanner(System.in);
 			
